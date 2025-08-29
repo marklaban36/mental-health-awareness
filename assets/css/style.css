@@ -1,0 +1,48 @@
+/* Global Styles */
+html {
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+body {
+  background-color: #f0f8ff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/*Navbar*/
+.navbar {
+  background-color: rgba(227, 225, 225, 1);
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* ensures it stays above other content */
+  backdrop-filter: blur(6px); /* optional: adds a gentle blur effect */
+}
+
+
+.navbar a,
+.navbar-brand {
+  font-weight: 500;
+}
+
+
+section[id] {
+  scroll-margin-top: 110px; /* Offset for fixed navbar */
+}
+
+/* Hero Section */
+#hero-section {
+  background: url('https://source.unsplash.com/1600x400/?nature,calm') center/cover no-repeat;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 123, 255, 0.3);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+
+
+
+
+
