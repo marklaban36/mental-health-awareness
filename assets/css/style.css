@@ -87,11 +87,13 @@ section[id] {
 #tips p,
 #tips .accordion-button,
 #tips .accordion-body {
-  color: #ffffff;
   font-weight: 500; /* Slightly lighter for softness */
   font-style: italic;
   text-align: center;
   margin-bottom: 1rem;
+}
+#tips {
+  color: #00695c; /* or any dark color you prefer */
 }
 
 
